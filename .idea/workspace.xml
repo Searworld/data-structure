@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b83257ba-064c-4be9-85e3-ec6248252490" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/data-structure.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/剑指offer/用两个栈实现队列.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/原型链/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/原型链/index2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/原型链/原型链.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序算法/冒泡排序.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序算法/堆排序.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序算法/希尔排序.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序算法/归并排序.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序算法/快速排序.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序算法/插入排序.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/排序算法/选择排序.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/深拷贝和浅拷贝/assign.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/深拷贝和浅拷贝/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/深拷贝和浅拷贝/浅拷贝.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/深拷贝和浅拷贝/深拷贝.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第 2 章 数组/栈/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章 列表/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第三章 列表/remand.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第五章 队列/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/第四章 栈/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/闭包运用/js继承.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/闭包运用/实现类和继承.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/闭包运用/自执函数.js" />
-    </list>
+    <list default="true" id="b83257ba-064c-4be9-85e3-ec6248252490" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -344,12 +316,20 @@
       <workItem from="1524383333557" duration="2866000" />
       <workItem from="1525697354998" duration="10756000" />
       <workItem from="1525968477410" duration="160000" />
-      <workItem from="1527039032766" duration="47418000" />
+      <workItem from="1527039032766" duration="47506000" />
     </task>
+    <task id="LOCAL-00001" summary="八大排序算法">
+      <created>1527727279332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527727279332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61200000" />
+    <option name="totallyTimeSpent" value="61288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -380,6 +360,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="八大排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="八大排序算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
