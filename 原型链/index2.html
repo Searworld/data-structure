@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<div id="root">
+    <div id="val" style="width: 100px;height: 30px;background-color: red"></div>
+    <ul class="ul" style="width: 100px;height: auto;background-color: aqua">
+        <li>叮叮</li>
+        <li>铛铛</li>
+    </ul>
+</div>
+
+<body>
+<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+    window.onload = function () {
+        $(document).bind('click', function (e) {
+            if (e.target === e.currentTarget) {
+                $('.ul').hide()
+            }
+
+        })
+        $('#val').click(function (e) {
+            e.stopPropagation()
+            $('.ul').show()
+        })
+    }
+</script>
+</body>
+</html>

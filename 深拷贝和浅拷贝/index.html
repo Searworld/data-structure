@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+window.onload = function () {
+
+    var fatherVal = {
+        eye:"big",
+        hair: "black",
+    }
+
+
+//给爸爸加上旅游过的地方的属性
+    fatherVal.travelPlace = ['北京','上海','香港'];
+
+    function deepCopy(father,son) {
+        var son = son || {}
+        for(var key in father) {
+            if(typeof father[key] === 'object') {
+                son[key] = father[key].constructor === Array ? [] : {}
+                console.log(son[key])
+
+            }
+        }
+        return son
+    }
+    var sonVal = deepCopy(fatherVal)
+    console.log(sonVal)
+}
+</script>
+</body>
+</html>

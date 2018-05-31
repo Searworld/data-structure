@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    window.onload = function () {
+        function Mother() {
+        }
+
+        Mother.prototype = {
+            age: 30,
+            travel: ['上海', '广东', '北京']
+        }
+
+        function MakePeople(name) {
+            this.name = name
+        }
+
+        MakePeople.prototype = new Mother()
+        var Person1 = new MakePeople("Hello")
+        Person1.age = "22"
+//        Person1.travel[0] = "美国"
+        Person1.travel = ['上海', '广东', '北京', '日本']
+        var Person2 = new MakePeople("World")
+        console.log("Person1", Person1)
+        console.log("Person2", Person2)
+        console.log("Mother",  new Mother())
+    }
+</script>
+</body>
+</html>
